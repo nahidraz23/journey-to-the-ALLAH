@@ -30,6 +30,11 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <ul className="flex gap-3">
+                <NavLink to={'/blog'}><li className="btn rounded-xl">
+                        <a href="">
+                            Blog
+                        </a>
+                    </li></NavLink>
                     <NavLink className="btn border-2 rounded-xl" to={'/login'}> <li>
                         <a href="">
                             Login
